@@ -1,1 +1,44 @@
-404: Not Found
+## .NET
+bin/
+obj/
+out/
+
+## IDE
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Build
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+publish/
+
+## NuGet
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+## User-specific
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+launchSettings.json
+
+## OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## Secrets
+appsettings.*.local.json
+secrets.json
